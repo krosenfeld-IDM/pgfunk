@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "installJupyterlab":true
+    }
+  },
+  
+  // Use 'postAttachCommand' to run commands after the container is started.
+  "postAttachCommand": "pip install -r requirements.txt"
+}
